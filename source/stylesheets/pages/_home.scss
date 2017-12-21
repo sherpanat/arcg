@@ -1,5 +1,10 @@
 #home {
-  background-color: #D23333;
+  // background-color: #D23333;
+  background-image: linear-gradient(rgba(20, 2, 2, 0.6), rgba(20, 2, 2, 0.5)),
+         url('../images/joyeux-noel.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
   color: white;
   height: 100vh;
   display: flex;
