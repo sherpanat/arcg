@@ -2,24 +2,24 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background: #000480;
+  background: rgba(0, 3, 128, 0.7);
 }
 
-#snow{
-	background: none;
-	font-family: Androgyne;
-	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index:1;
-	-webkit-animation: snow 10s linear infinite;
-	-moz-animation: snow 10s linear infinite;
-	-ms-animation: snow 10s linear infinite;
-	animation: snow 10s linear infinite;
-}
+// #snow{
+// 	background: none;
+// 	font-family: Androgyne;
+// 	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+// 	height: 100%;
+// 	left: 0;
+// 	position: absolute;
+// 	top: 0;
+// 	width: 100%;
+// 	z-index:1;
+// 	-webkit-animation: snow 10s linear infinite;
+// 	-moz-animation: snow 10s linear infinite;
+// 	-ms-animation: snow 10s linear infinite;
+// 	animation: snow 10s linear infinite;
+// }
 
 
 #moon {
@@ -35,6 +35,9 @@
   -ms-box-shadow: 0px 0px 25px -2px #FFFB00;
   margin-left: 60px;
   margin-top: 60px;
+  &:hover {
+    background: black;
+  }
 }
 
 #road {
