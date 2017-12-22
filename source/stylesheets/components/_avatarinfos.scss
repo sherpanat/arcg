@@ -1,0 +1,98 @@
+.circle {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 10px;
+  padding: 0;
+  position: relative;
+  background: #cccccc;
+  border-radius: 50%;
+  overflow: hidden;
+  .quote {
+    width: 200px;
+    height: 100px;
+    top: -100px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 100px 100px 0 0;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    z-index: 5;
+    p {
+      font-size: 14px;
+      text-align: center;
+      margin: 40px 20px 0 20px;
+      font-style: italic;
+    }
+  }
+  .signature {
+    width: 200px;
+    height: 100px;
+    top: 200px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 0 0 100px 100px;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    z-index: 4;
+    h3 {
+      font-size: 24px;
+      margin: 20px 20px 0 20px;
+      text-align: center;
+      padding-bottom: 5px;
+      border-top: 3px double #000000;
+      font-style: bold;
+    }
+  }
+  .astrology {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.75);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    p {
+      font-size: 16px;
+      text-align: center;
+      color: #333333;
+    }
+  }
+  .astrology-top {
+    top: -100px;
+    border-radius: 100px 100px 0 0;
+    p {
+      margin-top: 50px;
+      // margin: 0 20px 40px 20px;
+    }
+  }
+  .astrology-down {
+    top: 200px;
+    border-radius: 0 0 100px 100px;
+    p {
+      margin-top: 25px;
+      // margin: 40px 20px 0 20px;
+    }
+  }
+  &:hover {
+    .quote {
+      top: 0;
+      -webkit-box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, .75);
+      box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, .75);
+    }
+    .signature {
+      top: 100px;
+      -webkit-box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, .75);
+      box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, .75);
+    }
+    .astrology {
+      -webkit-box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, .75);
+      box-shadow: 0px 0px 15px 2px rgba(255, 255, 255, .75);
+    }
+    .astrology-top {
+      top: 0;
+    }
+    .astrology-down {
+      top: 100px;
+    }
+  }
+}
