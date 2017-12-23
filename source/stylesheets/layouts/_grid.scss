@@ -1,0 +1,63 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.jenifer {
+  grid-column: 6 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.localisation {
+  grid-column: 6 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.descriptif {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 3;
+}
+
+.repetition {
+  grid-column: 3 / span 2;
+  grid-row: 4 / span 2;
+}
+
+.love {
+  grid-column: 3 / span 3;
+  grid-row: 1 / span 3;
+}
+
+.fear {
+  grid-column: 6 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.skills {
+  grid-column: 1 / span 2;
+  grid-row: 4 / span 2;
+}
+
+.career {
+  grid-column: 5 / span 2;
+  grid-row: 4 / span 2;
+}
+
+.card {
+  background: rgba(10,10,10,0.2);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 5px 20px;
+  margin: 10px;
+  display: inline;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  .title {
+    font-size: 21px;
+  }
+  p {
+    font-size: 16px;
+    font-weight: lighter;
+  }
+}
