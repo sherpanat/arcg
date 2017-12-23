@@ -43,3 +43,14 @@
   grid-column: 6 / span 1;
   grid-row: 3 / span 1;
 }
+
+.card {
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 50px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
