@@ -11,6 +11,9 @@
 .descriptif {
   grid-column: 1 / span 1;
   grid-row: 1 / span 1;
+  p {
+    text-align: justify;
+  }
 }
 
 .skilled {
@@ -62,6 +65,10 @@
   justify-content: space-around;
   color: white;
   display: flex;
+  @media (max-width: 1000px) {
+    max-width: 90%;
+    margin: auto;
+  }
   // justify-content: center;
   flex-direction: column;
   .title {
