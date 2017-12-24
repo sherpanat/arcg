@@ -7,48 +7,55 @@ title: petite Audy
   <div id="moon">
   </div>
 
+  <div class="circle jenifer">
+    <!-- <img src="images/Jenifer" alt=""> -->
+    <%= image_tag "Jenifer.jpg", width: "200", class: "img-circle", id: "jenifer" %>
+    <div class="quote">
+      <p>
+        "A Audelyne, ma seule fan restante."
+      </p>
+    </div>
+    <div class="signature">
+      <h3>Jenifer</h3>
+    </div>
+  </div>
+
   <div class="container">
     <div class="grid">
-      <div class="circle jenifer">
-        <!-- <img src="images/Jenifer" alt=""> -->
-        <%= image_tag "Jenifer.jpg", width: "200", class: "img-circle", id: "jenifer" %>
-        <div class="quote">
-          <p>
-            "A Audelyne, ma seule fan restante."
-          </p>
-        </div>
-        <div class="signature">
-          <h3>Jenifer</h3>
-        </div>
-      </div>
-
-
-        Home page d’explication : je sais que Noël c’est important pour toi, alors je me suis permis de te faire un petit récap de toi 
+        <!-- Home page d’explication : je sais que Noël c’est important pour toi, alors je me suis permis de te faire un petit récap de toi  -->
       <div class="localisation card">
         <h3 class="title">
-          Localisation
+          Mon plus grand rêve ?
         </h3>
-        <p>le temple du 0 déchets</p>
+        <p class="text-center">
+          Adopter Goudouuuuu
+        </p>
+        <%= image_tag "https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif", class: "gif" %>
       </div>
       <div class="descriptif card">
         <h3 class="title">
-          Descriptif
+          Autobiographie
         </h3>
         <p>
-        Audelyne Rubio, j’aime l’Italie, l’italien et les italiens. Je vois des tensions sexuelles partout. Pour moi, un prénom sans « y » n’a pas lieu d’être. Féministe engagée, sauf dans ses lectures médiévales, je suis prête à tout accepter, sauf les pédophiles.
+          J’aime l’Italie, l’italien et les italiens.
+          Les singes, César, et Goudou
+          Je vois des tensions sexuelles partout.
+          Pour moi, un prénom sans 'y' n’a pas lieu d’être.
+          Féministe engagée, sauf dans mes lectures médiévales, je suis prête à tout accepter, sauf la pédophilie.
         </p>
       </div>
 
       <div class="repetition card">
         <h3 class="title">
-          Phrases que je prononce RECUREMMENT
+          Phrases récurrentes
         </h3>
         <ul>
-          <li><p>"Je ne sais pas"</p></li>
-          <li><p>"Je ne mens jamais"</p></li>
-          <li><p>"Non mais ça se voit lui il est gay"</p></li>
-          <li><p>"Il faut qu’il aille consulter"</p></li>
-          <li><p>"J’ai froid"</p></li>
+          <li>"Je ne sais pas"</li>
+          <li>"Je ne mens jamais"</li>
+          <li>"Non mais ça se voit lui il est gay"</li>
+          <li>"Il faut qu’il aille consulter"</li>
+          <li>"J’ai froid"</li>
+          <li>"Trop chouuuuuu"</li>
         </ul>
       </div>
 
@@ -59,32 +66,32 @@ title: petite Audy
 
         <!-- <div class="col-md-6"> -->
           <div class="barre-plus">
-            <span>+</span>
-            <span>J'aime</span>
+            <span class="plus">+</span>
+            <span class="text">J'aime</span>
           </div>
           <ul class="liste-argument">
             <li>Le RSA</li>
             <li>Friends</li>
             <li>Jenifer Aniston</li>
             <li>Jenifer tout court</li>
-            <li>Le mot DU COUP</li>
+            <li>Les mots DU COUP et BREF</li>
             <li>Mon mac</li>
-            <li>Le mot BREF</li>
-            <li>Le théâtre perché</li>
+            <li>Goudouuuuu</li>
+            <li>Le <span class="del">censuré</span></li>
             <li>et les poupougnouuuuus !</li>
           </ul>
+          <br>
           <div class="barre-moins">
-            <span>-</span>
-            <span>Je déteste</span>
+            <span class="moins">-</span>
+            <span class="text">Je déteste</span>
           </div>
           <ul class="liste-argument">
-            <li>Les courses trop lourdes</li>
             <li>Les gens qui ne m’écoutent pas</li>
             <li>Les gens 0 déchêts</li>
             <li>Les gens qui font des fautes de français</li>
             <li>Les gens qui râlent</li>
             <li>Les gens trop heureux dans leur vie</li>
-            <li>Bref les gens quoi !</li>
+            <li>BREF les gens quoi !</li>
           </ul>
         <!-- </div> -->
       </div>
@@ -93,9 +100,10 @@ title: petite Audy
         <h3 class="title">
           Mon pire cauchemar ?
         </h3>
-        <p>
-          Perdre mes sauvegardes d’ordinateur
+        <p class="text-center">
+          Perdre mes sauvegardes d’ordinateur, m'énerver et détruire mon mac.
         </p>
+        <%= image_tag "https://media.giphy.com/media/xTiTnJ3BooiDs8dL7W/giphy.gif", class: "gif" %>
       </div>
 
       <div class="skilled card">
@@ -103,10 +111,13 @@ title: petite Audy
           Special skills
         </h3>
         <ul class="skills">
-          <li class="skill" aria-label="novice"><p>20% Distribue les poupougnous</p></li>
-          <li class="skill" aria-label="average"><p>50% Mytho</p></li>
-          <li class="skill" aria-label="advanced"><p>80% Corrige tes fautes d'orthographe</p></li>
-          <li class="skill" aria-label="pro"><p>100% Bonnasse</p></li>
+          <li class="skill" aria-label="novice">20% Distribue les poupougnous</li>
+          <li class="skill" aria-label="average">50% Mytho</li>
+          <li class="skill" aria-label="advanced">80% Corrige tes fautes d'orthographe</li>
+          <li class="skill" aria-label="pro">100% Décryptage de pensées</li>
+          <li class="skill" aria-label="elite">90% Sérieuse</li>
+          <li class="skill" aria-label="adepte">5% Rebeu </li>
+          <li class="skill" aria-label="l33tasuar">120% Bonnasse</li>
         </ul>
       </div>
 
@@ -117,6 +128,7 @@ title: petite Audy
         <ul>
           <li><p>Psychologue sociale</p></li>
           <li><p>Humanitaire : mère Theresa du monde entier</p></li>
+          violence ?
         </ul>
       </div>
     </div>

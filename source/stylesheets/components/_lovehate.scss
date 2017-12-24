@@ -1,0 +1,34 @@
+
+.barre-plus {
+  background: #96CE5E;
+  width: 100%;
+  .plus {
+    background: #59B200;
+    padding: 0 7px;
+    font-size: 20px;
+  }
+  .text {
+    margin: 10px;
+  }
+}
+
+.barre-moins {
+  background: #EA7373;
+  width: 100%;
+  .moins {
+    background: #D90000;
+    padding: 0 9px;
+    font-size: 20px;
+  }
+  .text {
+    margin: 10px;
+  }
+}
+
+.del {
+	background-color: #000;
+	text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0 5px;
+}
