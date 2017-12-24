@@ -2,10 +2,14 @@
 .barre-plus {
   background: #96CE5E;
   width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
   .plus {
     background: #59B200;
     padding: 0 7px;
     font-size: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
   .text {
     margin: 10px;
@@ -15,10 +19,14 @@
 .barre-moins {
   background: #EA7373;
   width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
   .moins {
     background: #D90000;
-    padding: 0 9px;
+    padding: 0 10px;
     font-size: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
   }
   .text {
     margin: 10px;
