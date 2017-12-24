@@ -4,7 +4,9 @@
   float: left;
   margin: 10px;
   padding: 0;
-  position: relative;
+  position: absolute;
+  top: -5px;
+  right: 5px;
   background: #cccccc;
   border-radius: 50%;
   overflow: hidden;
