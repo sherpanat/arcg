@@ -49,6 +49,11 @@
   width: 100%;
   bottom: 0px;
   z-index: 999;
+  p {
+    text-align: right;
+    padding: 5px;
+    color: #D90000;
+  }
 }
 
 #path {
