@@ -26,11 +26,13 @@
   grid-row: 1 / span 1;
   // background-image: url("https://media.giphy.com/media/BNPfENG9THzz2/source.gif");
   // justify-content: flex-end;
+  align-items: center;
 }
 
 .fear {
   grid-column: 3 / span 1;
   grid-row: 2 / span 1;
+  align-items: center;
 }
 
 .repetition {
@@ -57,7 +59,6 @@
   justify-content: space-around;
   color: white;
   display: flex;
-  align-items: center;
   // justify-content: center;
   flex-direction: column;
   .title {
