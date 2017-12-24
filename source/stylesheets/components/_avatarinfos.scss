@@ -4,9 +4,7 @@
   float: left;
   margin: 10px;
   padding: 0;
-  position: absolute;
-  top: -5px;
-  right: 5px;
+  position: relative;
   background: #cccccc;
   border-radius: 50%;
   overflow: hidden;
@@ -97,4 +95,10 @@
       top: 100px;
     }
   }
+}
+
+.jenifer {
+  position: absolute;
+  top: -5px;
+  right: 5px;  
 }
