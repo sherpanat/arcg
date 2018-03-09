@@ -1,0 +1,29 @@
+.text {
+  padding: 20px 10px;
+  max-width: 600px;
+  margin: 10vh auto;
+  background-color: $white;
+}
+
+.lyrics {
+  p {
+    color: $white;
+    &:hover {
+      color: black;
+      transition: 1s;
+    }
+  }
+}
+
+.emojis {
+  &:hover {
+    visibility: hidden;
+  }
+}
+
+.emoji {
+  width: 50px;
+  &:hover {
+    // width: 100px;
+  }
+}
