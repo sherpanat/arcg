@@ -74,6 +74,8 @@ function movesnow() {
 for (i=0;i<=snowmax;i++) {
     document.write("<span id='s"+i+"' style='position:absolute;top:-"+snowmaxsize+"px;'>"+snowletter+"</span>");
 }
-if (browserok) {
+
+const pageSelector = document.querySelector("#start-snowing")
+if (browserok && (pageSelector !== null)) {
     window.onload=initsnow;
 }
