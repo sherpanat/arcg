@@ -2,8 +2,19 @@
   padding: 20px 0;
   width: 600px;
   margin: 10vh auto;
-  background-color: blue;
+  background-color: $white;
   position: relative;
+}
+
+#target-hover:hover {
+  p {
+    opacity: 1;
+    transition: 1s;
+  }
+  .emojis {
+    opacity: 0;
+    transition: 1s;
+  }
 }
 
 .lyrics {
@@ -15,25 +26,25 @@
   p {
     color: black;
     opacity: 0;
-    background-color: red;
+    // background-color: red;
     position: absolute;
     top: 10px;
     margin: 0 15px 0 0;
-    &:hover {
-      opacity: 1;
-      transition: 1s;
-    }
+    // &:hover {
+    //   opacity: 1;
+    //   transition: 1s;
+    // }
   }
 }
 
 .emojis {
-  background-color: green;
+  // background-color: green;
   width: 100%;
   // top: 100px;
-  &:hover {
-    opacity: 0;
-    transition: 1s;
-  }
+  // &:hover {
+  //   opacity: 0;
+  //   transition: 1s;
+  // }
 }
 
 .emoji {
