@@ -1,23 +1,38 @@
 .text-area {
-  padding: 20px 10px;
-  max-width: 600px;
+  padding: 20px 0;
+  width: 600px;
   margin: 10vh auto;
-  background-color: $white;
+  background-color: blue;
+  position: relative;
 }
 
 .lyrics {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 100%;
+  width: 100%;
   p {
-    color: $white;
+    color: black;
+    opacity: 0;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    margin: 0 15px 0 0;
     &:hover {
-      color: black;
+      opacity: 1;
       transition: 1s;
     }
   }
 }
 
 .emojis {
+  background-color: green;
+  width: 100%;
+  // top: 100px;
   &:hover {
-    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
   }
 }
 
