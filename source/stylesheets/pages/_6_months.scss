@@ -9,11 +9,11 @@
 #target-hover:hover {
   p {
     opacity: 1;
-    transition: 1s;
+    transition: 1.5s;
   }
   .emojis {
     opacity: 0;
-    transition: 1s;
+    transition: 1.5s;
   }
 }
 
@@ -28,11 +28,11 @@
     opacity: 0;
     // background-color: red;
     position: absolute;
-    top: 10px;
+    top: 0px;
     margin: 0 15px 0 0;
     // &:hover {
     //   opacity: 1;
-    //   transition: 1s;
+    //   transition: 1.5s;
     // }
   }
 }
@@ -40,15 +40,18 @@
 .emojis {
   // background-color: green;
   width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
   // top: 100px;
   // &:hover {
   //   opacity: 0;
-  //   transition: 1s;
+  //   transition: 1.5s;
   // }
 }
 
 .emoji {
   width: 50px;
+  margin: 5px;
   &:hover {
     // width: 100px;
   }
