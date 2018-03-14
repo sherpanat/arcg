@@ -19,3 +19,11 @@ position-relative {
 position-absolute {
   position: absolute;
 }
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
