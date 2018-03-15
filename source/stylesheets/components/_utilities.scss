@@ -12,6 +12,10 @@
   margin-bottom: 50px;
 }
 
+.margin-top-70px {
+  margin-top: 70px;
+}
+
 position-relative {
   position: relative;
 }
@@ -25,5 +29,5 @@ position-absolute {
 }
 
 .visible {
-  opacity: 1;
+  opacity: 1 !important;
 }
