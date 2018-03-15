@@ -1,0 +1,33 @@
+.flexbox-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-bottom-100px {
+  margin-bottom: 100px;
+}
+
+.margin-bottom-50px {
+  margin-bottom: 50px;
+}
+
+.margin-top-70px {
+  margin-top: 70px;
+}
+
+position-relative {
+  position: relative;
+}
+
+position-absolute {
+  position: absolute;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1 !important;
+}
