@@ -1,6 +1,7 @@
 var webpack = require('webpack');
 
 module.exports = {
+  mode: 'production',
   entry: {
     site: './source/javascripts/index.js'
   },
@@ -14,6 +15,13 @@ module.exports = {
     filename: 'javascripts/[name].js',
   },
 
+  module: {
+    rules: [{
+      test: /\.js$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader'
+    }]
+  }
   // module: {
   //   loaders: [
   //     {
