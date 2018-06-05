@@ -3,6 +3,8 @@ activate :autoprefixer do |prefix|
 end
 
 activate :sprockets
+sprockets.append_path File.join(root, 'source')
+
 
 page '/*.xml', layout: false
 page '/*.json', layout: false
