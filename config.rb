@@ -21,7 +21,7 @@ configure :development do
 end
 
 configure :build do
-  ignore { |path| path =~ /\/(.*)\.js$/ && $1 != 'site' }
+  ignore { |path| path =~ /\/(.*)\.js$/ && $1 != 'index' }
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
