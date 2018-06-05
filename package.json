@@ -1,0 +1,9 @@
+{
+  "name": "arcg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sherpanat/arcg.git",
+  "author": "Nathan Huberty <nathan.huberty@orange.fr>",
+  "license": "MIT",
+  "private": null
+}
