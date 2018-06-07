@@ -11,10 +11,6 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 configure :build do
-<<<<<<< HEAD
-  ignore { |path| path =~ /\/(.*)\.js$/ && $1 != 'index' }
-=======
->>>>>>> parent of ddd368d... Merge pull request #19 from sherpanat/add-webpack
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
