@@ -26,8 +26,10 @@ position-absolute {
 
 .hidden {
   opacity: 0;
+  // transition: 1s;
 }
 
 .visible {
   opacity: 1 !important;
+  transition: 1s;
 }
