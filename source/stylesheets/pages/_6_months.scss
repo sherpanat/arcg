@@ -29,7 +29,7 @@
   }
   70% {
     box-shadow: 0 0 0 50px rgba($light-blue, 0);
-    transform: scale(1);
+    transform: scale(1.1);
   }
   100% {
     box-shadow: 0 0 0 0 rgba($light-blue, 0);
@@ -41,11 +41,24 @@
   height: 70px;
 }
 
+#lyrics {
+  p .visible {
+    background-color: red;
+  }
+}
 #target-hover:hover {
+  // .lyrics {
+  //   opacity: 1;
+  // }
   p {
-    opacity: 1;
-    transition: 1s;
-    transform: scale(1.1);
+    .hidden {
+      opacity: 1;
+      transition: 1s;
+      transform: scale(1.1);
+    }
+    .visible {
+      opacity: 0;
+    }
   }
   h2 {
     opacity: 1;
@@ -56,9 +69,13 @@
     opacity: 0;
     transform: scale(1.3);
   }
-  .emojis {
+  .emojis .visible {
     opacity: 0;
     transform: scale(1.3);
+  }
+  .emojis .hidden {
+    opacity: 1;
+    // transform: scale(1.3);
   }
 }
 
@@ -69,9 +86,10 @@
   text-align: center;
   height: 100%;
   width: 100%;
+  // opacity: 0;
   p {
     color: $dark-blue;
-    opacity: 0;
+    // opacity: 0;
     // background-color: red;
     position: absolute;
     top: 10px;
