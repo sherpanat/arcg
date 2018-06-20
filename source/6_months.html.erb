@@ -4,15 +4,15 @@ title: 6 mois
 
 <div class="container">
   <div class="text-area">
+    <span class="button-swift" id="text-converter">
+      <i class="fa fa-align-justify" aria-hidden="true"></i>
+    </span>
     <div class="target-hover">
-      <div class="flexbox-center position-relative">
+      <div class="flexbox-center position-relative opacity-1 emojis">
         <%= image_tag "6-months.png", class: "emoji-title" %>
-        <span class="button-swift" id="text-converter">
-          <i class="fa fa-align-justify" aria-hidden="true"></i>
-        </span>
       </div>
       <div class="lyrics">
-        <h2>6 mois</h2>
+        <h2 class="lyric opacity-0">6 mois</h2>
       </div>
     </div>
     <div class="row margin-top-70px">
@@ -389,7 +389,7 @@ title: 6 mois
 </div>
 
 <script>
-  // const lyrics = document.querySelectorAll(".lyrics");
+  const lyrics = document.querySelectorAll(".lyric");
   const ps = document.querySelectorAll("p");
   const emojis = document.querySelectorAll(".emojis");
   const textConverter = document.querySelector("#text-converter");
@@ -397,9 +397,10 @@ title: 6 mois
   function toggleOpacity() {
     emojis.forEach(line => line.classList.toggle('opacity-1'));
     emojis.forEach(line => line.classList.toggle('opacity-0'));
-    // lyrics.forEach(line => line.classList.toggle('opacity-1'));
-    ps.forEach(line => line.classList.toggle('opacity-0'));
-    ps.forEach(line => line.classList.toggle('opacity-1'));
+    lyrics.forEach(line => line.classList.toggle('opacity-1'));
+    lyrics.forEach(line => line.classList.toggle('opacity-0'));
+    // ps.forEach(line => line.classList.toggle('opacity-0'));
+    // ps.forEach(line => line.classList.toggle('opacity-1'));
     textConverter.classList.toggle('active');
   }
 
