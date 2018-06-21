@@ -390,7 +390,6 @@ title: 6 mois
 
 <script>
   const lyrics = document.querySelectorAll(".lyric");
-  const ps = document.querySelectorAll("p");
   const emojis = document.querySelectorAll(".emojis");
   const textConverter = document.querySelector("#text-converter");
 
@@ -399,8 +398,6 @@ title: 6 mois
     emojis.forEach(line => line.classList.toggle('opacity-0'));
     lyrics.forEach(line => line.classList.toggle('opacity-1'));
     lyrics.forEach(line => line.classList.toggle('opacity-0'));
-    // ps.forEach(line => line.classList.toggle('opacity-0'));
-    // ps.forEach(line => line.classList.toggle('opacity-1'));
     textConverter.classList.toggle('active');
   }
 
