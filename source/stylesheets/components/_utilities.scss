@@ -31,3 +31,10 @@ position-absolute {
 .opacity-1 {
   opacity: 1;
 }
+
+.yellow {
+  background-color: yellow !important;
+  &hover {
+    background-color: green !important;
+  }
+}
