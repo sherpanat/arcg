@@ -33,8 +33,9 @@ position-absolute {
 }
 
 .yellow {
-  background-color: yellow !important;
+  background-color: $yellow !important;
+  color: $light-blue !important;
   &hover {
-    background-color: green !important;
+    // background-color: green !important;
   }
 }
