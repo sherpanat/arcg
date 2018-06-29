@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>6 mois</title>
-    <link href="stylesheets/application-6aeafd59.css" rel="stylesheet" />
+    <link href="stylesheets/application-e1029265.css" rel="stylesheet" />
     <link href="images/Audy-0e871c32.jpg" rel="icon" type="image/jpg" />
   </head>
   <body>
@@ -399,7 +399,6 @@
 
 <script>
   const lyrics = document.querySelectorAll(".lyric");
-  const ps = document.querySelectorAll("p");
   const emojis = document.querySelectorAll(".emojis");
   const textConverter = document.querySelector("#text-converter");
 
@@ -408,9 +407,10 @@
     emojis.forEach(line => line.classList.toggle('opacity-0'));
     lyrics.forEach(line => line.classList.toggle('opacity-1'));
     lyrics.forEach(line => line.classList.toggle('opacity-0'));
-    // ps.forEach(line => line.classList.toggle('opacity-0'));
-    // ps.forEach(line => line.classList.toggle('opacity-1'));
-    textConverter.classList.toggle('active');
+    textConverter.classList.toggle('yellow');
+    const icon = textConverter.querySelector('i');
+    icon.classList.toggle('fa-align-justify');
+    icon.classList.toggle('fa-smile-o');
   }
 
   textConverter.addEventListener('click', () => toggleOpacity() );
