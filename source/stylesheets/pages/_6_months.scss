@@ -18,8 +18,13 @@
   // border: 1px solid $dark-blue;
   padding: 5px 8px 5px 8px;
   background-color: $light-blue;
+  color: $yellow;
+  // i {
+  //   transition: 1s;
+  // }
   &:hover {
     background-color: $blue;
+
   }
   animation: pulse 2s infinite;
 }
