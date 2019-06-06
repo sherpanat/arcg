@@ -1,55 +1,14 @@
 /*
-Error: Undefined variable: "$white".
-        on line 8 of /Users/nathan/code/NathanHuberty/projects/arcg/source/stylesheets/components/buttons.scss
+SassC::SyntaxError: Error: Undefined variable: "$white".
+        on line 8 of source/stylesheets/components/buttons.scss
+>>   color: $white;
 
-3:   padding: 15px 30px;
-4:   margin-right: 50px;
-5:   text-decoration: none;
-6:   font-size: 26px;
-7:   border-radius: 15px;
-8:   color: $white;
-9:   background-color: $normal-blue;
-10:   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-11:   &:hover {
-12:     background-color: $light-blue;
-13:     color: $dark-blue;
+   ---------^
+
 
 Backtrace:
 /Users/nathan/code/NathanHuberty/projects/arcg/source/stylesheets/components/buttons.scss:8
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
-/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sassc-2.0.1/lib/sassc/engine.rb:49:in `render'
 /Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
 /Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/tilt-2.0.8/lib/tilt/template.rb:109:in `render'
 /Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/file_renderer.rb:79:in `render'
@@ -142,4 +101,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 8 of /Users/nathan/code/NathanHuberty/projects/arcg/source/stylesheets/components/buttons.scss\A \A 3:   padding: 15px 30px;\A 4:   margin-right: 50px;\A 5:   text-decoration: none;\A 6:   font-size: 26px;\A 7:   border-radius: 15px;\A 8:   color: $white;\A 9:   background-color: $normal-blue;\A 10:   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);\A 11:   &:hover {\A 12:     background-color: $light-blue;\A 13:     color: $dark-blue;"; }
+  content: "SassC::SyntaxError: Error: Undefined variable: \"$white\".\A         on line 8 of source/stylesheets/components/buttons.scss\A >>   color: $white;\A \A    ---------^\A "; }
