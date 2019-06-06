@@ -1,0 +1,25 @@
+.text-area.bc-color-dark {
+  padding: 20px 0 40px 0;
+  width: 700px;
+  margin: 10vh auto;
+  background-color: $marine-blue;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.07), 0 1px 0 0 rgba(0, 0, 0, 0.03);
+}
+
+.enigma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  p {
+    color: black;
+    margin: 0 15px 0 0;
+  }
+
+  h2 {
+    color: $dark-blue;
+  }
+}
