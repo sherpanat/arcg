@@ -1,13 +1,13 @@
 /*
 SassC::SyntaxError: Error: Undefined variable: "$white".
-        on line 8 of source/stylesheets/components/buttons.scss
+        on line 9 of source/stylesheets/components/buttons.scss
 >>   color: $white;
 
    ---------^
 
 
 Backtrace:
-/Users/nathan/code/NathanHuberty/projects/arcg/source/stylesheets/components/buttons.scss:8
+/Users/nathan/code/NathanHuberty/projects/arcg/source/stylesheets/components/buttons.scss:9
 /Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sassc-2.0.1/lib/sassc/engine.rb:49:in `render'
 /Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/middleman-core-4.2.1/lib/middleman-core/renderers/sass.rb:68:in `evaluate'
 /Users/nathan/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/tilt-2.0.8/lib/tilt/template.rb:109:in `render'
@@ -101,4 +101,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "SassC::SyntaxError: Error: Undefined variable: \"$white\".\A         on line 8 of source/stylesheets/components/buttons.scss\A >>   color: $white;\A \A    ---------^\A "; }
+  content: "SassC::SyntaxError: Error: Undefined variable: \"$white\".\A         on line 9 of source/stylesheets/components/buttons.scss\A >>   color: $white;\A \A    ---------^\A "; }
