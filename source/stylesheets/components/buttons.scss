@@ -1,7 +1,8 @@
 
 .button-months {
   padding: 15px 30px;
-  margin-right: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
   text-decoration: none;
   font-size: 26px;
   border-radius: 15px;
@@ -10,6 +11,24 @@
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   &:hover {
     background-color: $light-blue;
+    color: $dark-blue;
+    text-decoration: none;
+    transition: 1s;
+  }
+}
+
+.button-HB {
+  padding: 15px 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 26px;
+  border-radius: 15px;
+  color: $white;
+  background-color: $green;
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  &:hover {
+    background-color: $light-green;
     color: $dark-blue;
     text-decoration: none;
     transition: 1s;
